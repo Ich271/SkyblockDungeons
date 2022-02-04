@@ -20,16 +20,9 @@ namespace SkyblockDungeons.Content.Items.Weapons
 			
 			Item.CloneDefaults(ItemID.Meowmere);
 
-			
-
-			
-
 			Item.damage *= 2; 
 			Item.shootSpeed *= 2f;
-			Items.usetime = 1;
+			Item.useTime = 1;
 		}
-
-
-	
-	}
+    }
 }
